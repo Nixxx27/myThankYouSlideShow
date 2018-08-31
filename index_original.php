@@ -190,7 +190,7 @@
 			</div>
 			
 			
-		</div><!-- /container -->
+		</div>
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/jquery.js"></script>
@@ -202,7 +202,7 @@
 					new Slideshow( document.getElementById( 'slideshow-2' ) );
 				}, 1750 );
 
-				/* Mockup responsiveness */
+		
 				var body = docElem = window.document.documentElement,
 					wrap = document.getElementById( 'wrap' ),
 					mockup = wrap.querySelector( '.mockup' ),
@@ -240,7 +240,7 @@
 		<script type="text/javascript">
      $(function(){
       $(".welcome").typed({
-        // strings: ['THANK YOU!', 'SKY!!!','NIKKO ZABALA','IS NOW','SIGNING','', 'OFF...','SALAMAT PO!!',''],
+    
         strings: ['THANK YOU!', 'SKY!!!',''],
         typeSpeed: 100,
         showCursor: false,
@@ -256,7 +256,7 @@
      	$("#wrapper_id").fadeOut();
      }
 
-     setTimeout(hidewrapper,58000)
+     setTimeout(hidewrapper,58000);
 
 </script>
 		
