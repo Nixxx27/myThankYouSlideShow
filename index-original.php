@@ -27,9 +27,7 @@
 
 	</head>
 	<body class="demo-4">
-		<audio autoplay>
-  			<source src="sounds/you_are_the_reason.mp3" type="audio/mpeg">
- 		</audio>
+	
 		<div class="container">
 					
 			<div id="wrap" class="wrap">
