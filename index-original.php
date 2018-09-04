@@ -69,8 +69,8 @@
 			
 						<h1 style="color:white;border:white"><p class="welcome"> </p> </h1>
 
-	<div class='wrapper' id="wrapper_id">
-  <div class='movie'>Nikko Zabala, Now Signing Off...</div>
+	<div class='wrapper' id="wrapper_id" style="display: none">
+  <!-- <div class='movie'>Nikko Zabala, Now Signing Off...</div> -->
   <div class='movie'>THANKS TO</div>
 
    <div class='movie'>IT Department <3 </div>
@@ -108,7 +108,7 @@
 
   <div class='movie'>Payables Group</div>
   <div class='job'>Payables Supervisor</div>
-  <div class='name'>Sir Jon Jon Santos</div>
+  <div class='name'>Sir Jon Santos</div>
   <div class='job'>Payables Specialists</div>
   <div class='name'>Evelyn Mendoza | Jaizle Dee Trenonce</div>
   <div class='name'>Shieladine Tersol | Donalyn Mumar</div>
@@ -177,6 +177,8 @@
 
   <div class='movie'>AND TO ALL SKYKITCHEN FAMILY!!! </div>
 
+  	<div class='name'>Office of the President</div>
+  	<div class='name'>Office of the General Manager</div>
     <div class='name'>Field Servicing | Catering Operations </div>
 	<div class='name'> Training | PSD | RAMP </div>
 	<div class='name'>CARGO | MSC | CBS</div>
@@ -241,7 +243,7 @@
      $(function(){
       $(".welcome").typed({
     
-        strings: ['THANK YOU!', 'SKY!!!',''],
+          strings: ['THANK YOU!', 'SKY!!!','NIKKO ZABALA','NOW','SIGNING','', 'OFF...','SALAMAT PO!!',''],
         typeSpeed: 100,
         showCursor: false,
 
@@ -250,13 +252,26 @@
 
   });
 
+    $( document ).ready(function() {
+    	$("#wrapper_id").fadeOut();
+	});
 
-     function hidewrapper()
+
+    function showWrapper()
+     {
+     	$("#wrapper_id").fadeIn();
+     };
+
+     function hideWrapper()
      {
      	$("#wrapper_id").fadeOut();
-     }
+     };
 
-     setTimeout(hidewrapper,58000);
+     
+
+
+	setTimeout(showWrapper,14000);
+    setTimeout(hideWrapper,75000);
 
 </script>
 		
