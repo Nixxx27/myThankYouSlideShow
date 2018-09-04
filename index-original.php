@@ -119,7 +119,7 @@
   <div class='job'>Billing Supervisor</div>
   <div class='name'>Corlee Larena</div>
 
-  <div class='job'>Billing Specialist</div>
+  <div class='job'>Billing Analysts</div>
   <div class='name'>Jhen Cantiga <3</div>
   <div class='name'>Leah Maitim</div>
   <div class='name'>Joan Jardin</div>
