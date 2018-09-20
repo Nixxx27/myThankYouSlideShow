@@ -67,123 +67,6 @@
 			
 						<h1 style="color:white;border:white"><p class="welcome"> </p> </h1>
 
-	<div class='wrapper' id="wrapper_id" style="display: none">
-  <!-- <div class='movie'>Nikko Zabala, Now Signing Off...</div> -->
-  <div class='movie'>THANKS TO</div>
-
-   <div class='movie'>IT Department <3 </div>
-  <div class='job'>IT Officer</div>
-  <div class='name'>Jeff Iral</div>
-  <div class='job'>IT Specialist</div>
-  <div class='name'>Kevin Sia</div>
-
-  <div class='movie'>Two E-Com Family </div>
-  <div class='job'>VP Finance & Admin</div>
-  <div class='name'>Sir Prisco Ponce</div>
-  <div class='job'>Chief Financial Officer</div>
-  <div class='name'>Mam Florence Siy</div>
-
-  <div class='job'>Assistant to the VP and CFO</div>
-  <div class='name'>Mam Jerlyn Cotoner</div>
-
-  <div class='job'>Accounting Manager</div>
-  <div class='name'>Mam Rose Anne Romasanta</div>
-
-  <div class='job'>Finance Manager</div>
-  <div class='name'>Mam Germelina Deocariza</div>
-
-  <div class='job'>General Accounting Officer</div>
-  <div class='name'>Aira Fulo</div>
-
-  <div class='job'>Treasury Supervisor</div>
-  <div class='name'>Elise Diana Dee</div>
-
-  <div class='job'>Cost Accounting Supervisor</div>
-  <div class='name'>Michelle Talamante</div>
-
-  <div class='job'>Cost Accounting Specialist</div>
-  <div class='name'>Clarish Clemente</div>
-
-  <div class='movie'>Payables Group</div>
-  <div class='job'>Payables Supervisor</div>
-  <div class='name'>Sir Jon Santos</div>
-  <div class='job'>Payables Specialists</div>
-  <div class='name'>Evelyn Mendoza | Jaizle Dee Trenonce</div>
-  <div class='name'>Shieladine Tersol | Donalyn Mumar</div>
-  <div class='name'>Sherwin Balbaboco | Roel Thoy Layoso</div>
-
-  <div class='movie'>Billing Group</div>
-  <div class='job'>Billing Officer</div>
-  <div class='name'>Maan Brillantes</div>
-  
-  <div class='job'>Billing Supervisor</div>
-  <div class='name'>Corlee Larena</div>
-
-  <div class='job'>Billing Analysts</div>
-  <div class='name'>Jhen Cantiga <3</div>
-  <div class='name'>Leah Maitim</div>
-  <div class='name'>Joan Jardin</div>
-
-  <div class='movie'>Timekeeping & Payroll Group</div>
-   <div class='job'>Timekeeping & Payroll Officer</div>
-  <div class='name'>Mam Jill Regalado </div>
-
-  <div class='name'>Irish | MC | France | AC | Luis | Christian | RJ</div>
-
-  <div class='job'>Payroll Supervisor</div>
-  <div class='name'>Mam Jack Bolanos </div>
-  <div class='name'>Joel | Maria Clemencia "Cleng" | Roxanne</div>
-
-  <div class='movie'>Purchasing & Warehouse</div>
-
-  <div class='job'>Purchasing & Warehouse Manager</div>
-  <div class='name'>Mam Irene Uy </div>
-  <div class='job'>Officers </div>
-  <div class='name'>Sir Ronielo Bulan | Mam Edna Noguera</div>
-
-  <div class='job'>Warehouse Supervisor </div>
-  <div class='name'>Mam Maricel Garcia</div>
-
-  <div class='name'>Miss Dona | Merj | Joan | Justine | Hanna | Leonard | To All Warehouse Team</div>
-
-  <div class='movie'>HR Department</div>
-  <div class='job'>HR Manager</div>
-   <div class='name'>Sir Ronero Tan</div>
-
-   <div class='job'>HR Officers</div>
-   <div class='name'>Mam Malou Tungol | Sir Jayson Rocento</div>
-
-  <div class='name'>Miss Carla | Sarah | Jocelyn | AC | Jen | Alvin  | Andrew | Jubelyn</div>
-
-  <div class='job'>SkyLogistics</div>
-  <div class='job'>President</div>
-  <div class='name'>Sir Francisco Yngente</div>
-  <div class='job'>General Manager</div>
-  <div class='name'>Mam Analyn Castro</div>
-
- <div class='movie'>AND TO ALL SKYLOGISTICS FAMILY!!! </div>
-
-  <div class='job'>SkyKitchen</div>
-  <div class='job'>President</div>
-  <div class='name'>Sir Sam Lim</div>
-
-  <div class='job'>General Manager</div>
-  <div class='name'>Sir Wesley Calfoforo</div>
-
-    <div class='job'>Operations Manager</div>
-  <div class='name'>Sir Victor Lotuaco</div>
-
-  <div class='movie'>AND TO ALL SKYKITCHEN FAMILY!!! </div>
-
-  	<div class='name'>Office of the President</div>
-  	<div class='name'>Office of the General Manager</div>
-    <div class='name'>Field Servicing | Catering Operations </div>
-	<div class='name'> Training | PSD | RAMP </div>
-	<div class='name'>CARGO | MSC | CBS</div>
-    <div class='name'>GEMSD | QAD | SSD</div>
-    <div class='movie'>THANKS TO ALL ... <3</div>
-</div>
-
 		
 					</header>
 				</div>
@@ -238,38 +121,20 @@
 		</script>
 
 		<script type="text/javascript">
-     $(function(){
-      $(".welcome").typed({
+
+
+     function thankYou()
+     {
+     	 $(".welcome").typed({
     
           strings: ['THANK YOU!', 'SKY!!!','NIKKO ZABALA','NOW','SIGNING','', 'OFF...','SALAMAT PO!!',''],
         typeSpeed: 100,
         showCursor: false,
 
       });
+     }
 
-
-  });
-
-    $( document ).ready(function() {
-    	$("#wrapper_id").fadeOut();
-	});
-
-
-    function showWrapper()
-     {
-     	$("#wrapper_id").fadeIn();
-     };
-
-     function hideWrapper()
-     {
-     	$("#wrapper_id").fadeOut();
-     };
-
-     
-
-
-	setTimeout(showWrapper,14000);
-    setTimeout(hideWrapper,75000);
+     setTimeout(thankYou,3000);
 
 </script>
 		
