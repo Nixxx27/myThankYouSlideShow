@@ -134,7 +134,7 @@
       });
      }
 
-     setTimeout(thankYou,3000);
+     setTimeout(thankYou,2000);
 
 </script>
 		
